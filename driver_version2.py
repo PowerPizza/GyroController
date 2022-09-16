@@ -1,3 +1,11 @@
+"""
+made by : PowerPizza or SciHack
+description : my AI project. which track hand movement and move game character.
+begin date : 11-09-2022
+end data :16-09-2022
+project : GyroController
+"""
+
 import serial
 import serial.tools.list_ports as lp
 from pynput.keyboard import Controller
