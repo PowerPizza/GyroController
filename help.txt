@@ -1,0 +1,12 @@
+using configs.json you can change the following settings of driver
+1. sensitivity-X = it must be a positive integer [Default = 200]
+2. sensitivity-y = it must be a positive integer [Default = 160]
+3. sensorCoolDown = it must be in seconds [Default = 0.2]; 0.2 seconds = 200 milliseconds
+
+this driver is for a spacial hardware name gyroController and hardware must require.
+
+source code of driver, source code of microcontroller (ARDUINO UNO), driver exe code by PowerPizza.
+
+github : https://github.com/PowerPizza
+discord : scihack223
+hardware made by : scihack [SH] alt of PowerPizza
