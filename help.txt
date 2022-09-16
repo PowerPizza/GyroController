@@ -7,6 +7,9 @@ this driver is for a spacial hardware name gyroController and hardware must requ
 
 source code of driver, source code of microcontroller (ARDUINO UNO), driver exe code by PowerPizza.
 
+may sometime the hardware not show in pc but connected, so make sure you have installed CP2102 USB to UART Bridge
+Driver. And cable (Arduino cable) is working properly.
+
 github : https://github.com/PowerPizza
 discord : scihack223
 hardware made by : scihack [SH] alt of PowerPizza
