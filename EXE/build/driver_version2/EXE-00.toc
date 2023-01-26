@@ -1,5 +1,5 @@
 ('C:\\Users\\HP\\Desktop\\ARDIUNO '
- 'PROJECTS\\HANDGAME_controller\\Version-2\\dist\\driver_version2.exe',
+ 'PROJECTS\\HANDGAME_controller\\Version-2\\EXE\\dist\\driver_version2.exe',
  True,
  False,
  False,
@@ -14,14 +14,14 @@
  None,
  None,
  'C:\\Users\\HP\\Desktop\\ARDIUNO '
- 'PROJECTS\\HANDGAME_controller\\Version-2\\build\\driver_version2\\driver_version2.pkg',
+ 'PROJECTS\\HANDGAME_controller\\Version-2\\EXE\\build\\driver_version2\\driver_version2.pkg',
  [('PYZ-00.pyz',
    'C:\\Users\\HP\\Desktop\\ARDIUNO '
-   'PROJECTS\\HANDGAME_controller\\Version-2\\build\\driver_version2\\PYZ-00.pyz',
+   'PROJECTS\\HANDGAME_controller\\Version-2\\EXE\\build\\driver_version2\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\HP\\Desktop\\ARDIUNO '
-   'PROJECTS\\HANDGAME_controller\\Version-2\\build\\driver_version2\\localpycos\\struct.pyo',
+   'PROJECTS\\HANDGAME_controller\\Version-2\\EXE\\build\\driver_version2\\localpycos\\struct.pyo',
    'PYMODULE'),
   ('pyimod01_os_path',
    'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
@@ -84,12 +84,12 @@
   ('libffi-7.dll', 'C:\\Program Files\\Python39\\DLLs\\libffi-7.dll', 'BINARY'),
   ('base_library.zip',
    'C:\\Users\\HP\\Desktop\\ARDIUNO '
-   'PROJECTS\\HANDGAME_controller\\Version-2\\build\\driver_version2\\base_library.zip',
+   'PROJECTS\\HANDGAME_controller\\Version-2\\EXE\\build\\driver_version2\\base_library.zip',
    'DATA')],
  [],
  False,
  False,
- 1663347884,
+ 1674741943,
  [('run.exe',
    'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])

@@ -25,8 +25,10 @@ for ports in lp.comports():
             print("Hardware found at COM port :", ports.name)
     except BaseException as e:
         print(f"Connecting to COM port {ports.name} failed.\n\tError", e)
+        input("Press enter to quit : ")
 if not isHardwareFound:
     print("No Hardware found for this driver!")
+    input("Press enter to quit : ")
 
 kb = Controller()
 ct = time.perf_counter()  # current time counted
