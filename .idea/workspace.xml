@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8d0624-e1fe-4806-a41a-bb3f4c7245f9" name="Changes" comment="" />
+    <list default="true" id="bc8d0624-e1fe-4806-a41a-bb3f4c7245f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CP2102 USB to UART Bridge.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circuit Diagram of hardware.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/driver_version2.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/driver_version2.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/warn-driver_version2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/xref-driver_version2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/configs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXE/driver_version2.exe" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +43,34 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="driver_version2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Version-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/driver_version2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.driver_version2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,5 +81,16 @@
       <updated>1663345332198</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
