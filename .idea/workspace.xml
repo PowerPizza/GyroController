@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc8d0624-e1fe-4806-a41a-bb3f4c7245f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CP2102 USB to UART Bridge.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circuit Diagram of hardware.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/PYZ-00.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Tree-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Tree-01.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/Tree-02.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/driver_version2.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/driver_version2.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/warn-driver_version2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/build/driver_version2/xref-driver_version2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/configs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXE/driver_version2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver_version2.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver_version2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

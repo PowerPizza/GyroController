@@ -16,19 +16,31 @@ configs = json.load(open("configs.json"))
 isHardwareFound = False
 s = serial.Serial()
 
-for ports in lp.comports():
-    try:
-        testSerial = serial.Serial(port=ports.name, baudrate=115200)
-        if testSerial.readline() == b"BEGIN\r\n":
-            isHardwareFound = True
-            s = testSerial
-            print("Hardware found at COM port :", ports.name)
-    except BaseException as e:
-        print(f"Connecting to COM port {ports.name} failed.\n\tError", e)
+def automate_serial():
+    global isHardwareFound, s
+    for ports in lp.comports():
+        try:
+            print(f"Testing connection at : {ports}")
+            testSerial = serial.Serial(port=ports.name, baudrate=115200)
+            if testSerial.readline() == b"BEGIN\r\n":
+                isHardwareFound = True
+                s = testSerial
+                print("Hardware found at COM port :", ports.name)
+        except BaseException as e:
+            print(f"Connecting to COM port {ports.name} failed.\n\tError", e)
+            input("Press enter to quit : ")
+    if not isHardwareFound:
+        print("No Hardware found for this driver!")
         input("Press enter to quit : ")
-if not isHardwareFound:
-    print("No Hardware found for this driver!")
-    input("Press enter to quit : ")
+
+com_port = input("Enter COM port (hit enter to automate) : ")
+if len(com_port) > 1:
+    s = serial.Serial(port=com_port, baudrate=115200)
+    if s.readline() == b"BEGIN\r\n":
+        isHardwareFound = True
+        print("Hardware found at COM port :", com_port)
+else:
+    automate_serial()
 
 kb = Controller()
 ct = time.perf_counter()  # current time counted
